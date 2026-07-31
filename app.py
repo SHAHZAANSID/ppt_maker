@@ -121,7 +121,7 @@ def run_agent(leader_agent, query):
 
 
 # =====step 7: agent call======
-if all(ALL_API:
+if all(ALL_API):
   leader_agent = create_agent(
       model = model,
       tools = [search_latest_info,
