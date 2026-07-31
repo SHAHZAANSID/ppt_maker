@@ -121,11 +121,14 @@ def run_agent(leader_agent, query):
 
 
 # =====step 7: agent call======
-leader_agent = create_agent(
-    model = model,
-    tools = [search_latest_info,
-             generate_image])
-
+if all(ALL_API:
+  leader_agent = create_agent(
+      model = model,
+      tools = [search_latest_info,
+               generate_image])
+else:
+  st.info("pass ALL_API_KEYS and return
+          
 
 # =====step 8: navbarstreamlit======
 tab1, tab2, tab3 = st.tabs(["Generate Image",
