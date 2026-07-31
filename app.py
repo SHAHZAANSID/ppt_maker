@@ -127,7 +127,7 @@ if all(ALL_API:
       tools = [search_latest_info,
                generate_image])
 else:
-  st.info("pass ALL_API_KEYS and return)
+  st.info("pass ALL_API_KEYS and return")
           
 
 # =====step 8: navbarstreamlit======
