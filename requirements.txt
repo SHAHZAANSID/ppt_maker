@@ -1,12 +1,9 @@
-streamlit
 langchain
-langchain-core
-langchain-groq
 langchain-google-genai
-langchain-community
+langchain-groq
 tavily-python
 pytesseract
+streamlit
 numpy
-requests
-pillow
-PyMuPDF
+matplotlib
+seaborn
